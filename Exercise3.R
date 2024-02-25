@@ -144,6 +144,3 @@ time = derivative.out[,1]
 
 image.plot(time,z,phi.out[,ncol(phi.out):1],col = hcl.colors(50, "viridis"), ylab="Distance from seabed", main="Phytoplankton")
 image.plot(time,z,N.out[,ncol(phi.out):1],col = hcl.colors(50, "viridis"), ylab="Distance from seabed", main= "Nutrients")
-
-#Sensitivity analysis 
-
